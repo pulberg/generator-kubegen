@@ -58,12 +58,12 @@ module.exports = {
         var prompts = [{
             name: "shouldExpose",
             type: "list",
-            message: "(Ingress) Would like to expose the service out of the cluster?",
+            message: "(Ingress) Would like to expose the service outside the cluster?",
             choices: ["yes", "no"]
         }, {
             name: "ingressType",
             type: "list",
-            message: "(Ingress) Which class of expose would you like?",
+            message: "(Ingress) Which type of Ingress would you like?",
             choices: ["external", "internal", "nginx", "tls-lego"],
             default: "external"
         }, {
@@ -86,7 +86,7 @@ module.exports = {
         }, {
             name: "ingressPort",
             type: "input",
-            message: "(Ingress) In which port should the Ingress listen?",
+            message: "(Ingress) Which port should the Ingress listen?",
             default: 80,
             when: this.when.shouldExpose,
             validate: val.isNumber,

@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sesispla/generator-kubegen.git"
+    "url": "git+https://github.com/pulberg/generator-kubegen.git"
   },
   "keywords": [
     "kubernetes",
@@ -19,12 +19,12 @@
     "generator",
     "yaml"
   ],
-  "author": "Sergio Sisternes <sesispla@outlook.com>",
+  "author": "Phillip Ulberg <phillip.ulberg@raymondjames.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sesispla/generator-kubegen/issues"
+    "url": "https://github.com/pulberg/generator-kubegen/issues"
   },
-  "homepage": "https://github.com/sesispla/generator-kubegen#readme",
+  "homepage": "https://github.com/pulberg/generator-kubegen#readme",
   "dependencies": {
     "codacy-coverage": "^2.0.2",
     "mocha-lcov-reporter": "^1.3.0",

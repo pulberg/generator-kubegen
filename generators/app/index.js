@@ -24,7 +24,7 @@ module.exports = class extends Generator {
             .concat([{
                 name: "podControllerType",
                 type: "list",
-                message: "Which type of Pod controller mechanism whould you like to use?",
+                message: "Which type of Pod controller would you like to use?",
                 choices: ["Deployment", "Replication Controller", "Other"]
             }])
             .concat(deployment.getPrompts())

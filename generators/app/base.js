@@ -19,13 +19,13 @@ module.exports = {
         var prompts = [{
             type: "input",
             name: "name",
-            message: "How the service should be named?",
+            message: "What is the name of the service?",
             default: "service1",
             validate: val.isString
         }, {
             type: "input",
             name: "namespace",
-            message: "In which Namespace should be deployed?",
+            message: "Which Namespace should the service be deployed to?",
             default: "default",
             validate: val.isString
         }];

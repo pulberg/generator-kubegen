@@ -46,7 +46,7 @@ module.exports = {
         }, {
             type: "input",
             name: "replicas",
-            message: "(Deployment) How much container replicas should be created?",
+            message: "(Deployment) How many replicas should be created?",
             default: 1,
             validate: val.isNumber,
             when: this.when,

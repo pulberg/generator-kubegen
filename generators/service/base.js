@@ -31,14 +31,14 @@ module.exports = {
         var prompts = [{
             name: "containerPort",
             type: "input",
-            message: "(Service) In which port is the Container listening?",
+            message: "(Service) Which port is the Container listening?",
             default: 80,
             validate: val.isNumber,
             filter: val.parseInteger
         }, {
             name: "servicePort",
             type: "input",
-            message: "(Service) In which port should the Service listen?",
+            message: "(Service) Which port should the Service listen?",
             default: 80,
             validate: val.isNumber,
             filter: val.parseInteger
